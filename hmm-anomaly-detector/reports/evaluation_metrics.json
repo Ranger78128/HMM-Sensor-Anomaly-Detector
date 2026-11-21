@@ -1,0 +1,71 @@
+{
+  "sample_level_metrics": {
+    "precision": 0.7721,
+    "recall": 0.503,
+    "f1_score": 0.6092,
+    "accuracy": 0.9023,
+    "false_alarm_rate": 0.0265,
+    "true_positives": 166,
+    "false_positives": 49,
+    "true_negatives": 1802,
+    "false_negatives": 164
+  },
+  "event_level_summary": {
+    "total_anomaly_events": 5,
+    "detected_anomaly_events": 4,
+    "event_detection_rate_pct": 80.0,
+    "mean_detection_latency_steps": 13.5
+  },
+  "anomaly_episodes": [
+    {
+      "event_id": 1,
+      "anomaly_type": "mechanical_spike",
+      "start_idx": 281,
+      "end_idx": 306,
+      "duration_steps": 26,
+      "detected": true,
+      "detection_latency_steps": 0,
+      "alarm_coverage_pct": 100.0
+    },
+    {
+      "event_id": 2,
+      "anomaly_type": "mean_shift_drift",
+      "start_idx": 631,
+      "end_idx": 711,
+      "duration_steps": 81,
+      "detected": false,
+      "detection_latency_steps": null,
+      "alarm_coverage_pct": 0.0
+    },
+    {
+      "event_id": 3,
+      "anomaly_type": "variance_chatter",
+      "start_idx": 1031,
+      "end_idx": 1111,
+      "duration_steps": 81,
+      "detected": true,
+      "detection_latency_steps": 20,
+      "alarm_coverage_pct": 41.98
+    },
+    {
+      "event_id": 4,
+      "anomaly_type": "transition_violation",
+      "start_idx": 1431,
+      "end_idx": 1511,
+      "duration_steps": 81,
+      "detected": true,
+      "detection_latency_steps": 16,
+      "alarm_coverage_pct": 77.78
+    },
+    {
+      "event_id": 5,
+      "anomaly_type": "sensor_freeze_dropout",
+      "start_idx": 1801,
+      "end_idx": 1861,
+      "duration_steps": 61,
+      "detected": true,
+      "detection_latency_steps": 18,
+      "alarm_coverage_pct": 70.49
+    }
+  ]
+}

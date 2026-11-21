@@ -1,0 +1,50 @@
+{
+  "n_components": 3,
+  "window_size": 20,
+  "covariance_type": "diag",
+  "anomaly_threshold": -8.08940359793279,
+  "train_likelihood_stats": {
+    "mean_log_likelihood": -2.9971,
+    "std_log_likelihood": 2.3434,
+    "min_log_likelihood": -8.9563,
+    "percentile_1_log_likelihood": -8.0894,
+    "three_sigma_log_likelihood": -10.0274,
+    "num_calibration_windows": 2981
+  },
+  "state_emissions": {
+    "state_0": {
+      "mean": 1.4977,
+      "variance": 0.1291
+    },
+    "state_1": {
+      "mean": 6.9596,
+      "variance": 0.3799
+    },
+    "state_2": {
+      "mean": 4.009,
+      "variance": 0.2003
+    }
+  },
+  "transition_matrix": [
+    [
+      0.9113023882401053,
+      8.616867538690953e-20,
+      0.0886976117598947
+    ],
+    [
+      3.282389686457842e-20,
+      0.8920012370816186,
+      0.1079987629183814
+    ],
+    [
+      0.04608086086916407,
+      0.0483483067652386,
+      0.9055708323655974
+    ]
+  ],
+  "initial_probabilities": [
+    1.0,
+    2.0437979153981273e-192,
+    3.667928366033805e-43
+  ]
+}
